@@ -22,3 +22,8 @@ def nice_deal():
 
 
 print(testing_type(10))
+
+
+def new_ways():
+    return
+
