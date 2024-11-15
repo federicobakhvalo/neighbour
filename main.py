@@ -1,4 +1,6 @@
 # This is a sample Python script.
+import time
+
 
 # Press Shift+F10 to execute it or replace it with your code.
 
@@ -8,9 +10,15 @@ def testing_type(f):
 
 
 def nice(k):
-    if k%2==0:
+    if k % 2 == 0:
         return True
     return False
+
+
+def nice_deal():
+    while True:
+        print('hh')
+        time.sleep(1)
 
 
 print(testing_type(10))
