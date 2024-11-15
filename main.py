@@ -27,3 +27,19 @@ print(testing_type(10))
 def new_ways():
     return
 
+
+print('hello world')
+
+
+class NewWayTimer():
+    def __int__(self):
+        self.timer=10
+
+
+    def get(self):
+        print('hello')
+        return 'n'
+
+
+print(NewWayTimer().get())
+
